@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+    scroll-behavior: smooth;
+    border: solid 1rem white;
+}
+
+body {
+    margin-top: 3rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: white;
+    background-image: linear-gradient(135deg, rgba(0, 12, 46, 0.8), rgba(36, 37, 42, 0.8)), url("images/flyer-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 1rem;
+}
+
+.main {
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    margin: 1rem 0 3rem;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+h3 {
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    margin-top: 1.5rem;
+
+}
+
+h3:hover {
+    color: #7ea4df;
+    transition: all 0.3s ease-in-out;
+    text-shadow: 0 0 5px #00f2ff;
+}
+
+.planning {
+    margin-top: 30px;
+    width: fit-content;
+}
+
+.register {
+    align-self: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #384355;
+    color: white;
+    align-content: center;
+    margin: 2rem 0 2rem;
+}
+
+.register:hover {
+    transform: scale(1.2);
+}
+
+.fa-microchip {
+    border-right: solid 1px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+footer {
+    border-top: solid 1px white;
+    padding-top: 15px;
+    font-size: 12px;
+    color: #384355;
+    height: fit-content;
+}
+
+footer h4 {
+    margin-left: 25px;
+    font-size: 14px;
+    color: #3e4552;
+}
+
+footer li {
+    list-style-type: none;
+}

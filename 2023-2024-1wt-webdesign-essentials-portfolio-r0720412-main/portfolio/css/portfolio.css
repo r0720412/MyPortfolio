@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tilt+Neon&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: whitesmoke;
+    max-width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("/portfolio/images/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    max-width: 100%;
+    color: #ffffff;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #424244;
+    max-width: 100%;
+    color: #ffffff;
+    margin-top: 0.2rem;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #1372ac;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 17rem;
+    font-family: tilt-neon, serif;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #1372ac;
+    text-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0.5rem;
+    font-family: tilt-neon, serif;
+}
+
+nav {
+    font-weight: 500;
+    background-color: #424244;
+    width: 100%;
+    position: fixed;
+    }
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    border-top: 1px solid white;
+}
+
+nav li {
+    display: flex;
+    flex: 1;
+    background-color: #424244;
+    border-bottom: 1px solid black;
+}
+
+nav a {
+    flex: 1 1 auto;
+    line-height: 2;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+nav ul li a {
+    color: white;
+    border-top: 2px solid white;
+    padding-top: 7px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+nav ul li a:hover {
+    color: black;
+    border-top-color: black;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav a i {
+    margin-right: 1rem;
+}
+
+nav li.spacer {
+    display: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main p {
+    margin: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.whatAI, .newAI, .posAI, .ethicsAI, .futureAI{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    color: #ffffff;
+    margin-top: 1rem;
+}
+
+.whatAI{
+    background-image: url("../images/whatisAI.jpg");
+}
+
+.newAI{
+    background-image: url("../images/newAI.jpg");
+}
+
+.posAI{
+    background-image: url("../images/posAI.jpg");
+}
+
+.ethicsAI{
+    background-image: url("../images/AIEthics.jpg");
+}
+
+.futureAI{
+    background-image: url("../images/futureAI.jpg");
+}
+
+.homeAIbtn {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    color: #1372ac;
+    text-decoration: none;
+    margin-bottom: 0.2rem;
+    text-align: left;
+    object-position: bottom;
+}
+
+.homeAIbtn:hover {
+    transform: scale(0.95);
+}
+
+ul {
+    list-style-type: circle;
+}
+
+#bias li {
+    list-style-type: square;
+}
+
+#privacy li {
+    list-style-type: square;
+}
+
+#auto li {
+    list-style-type: square;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.machine img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.machine {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10rem;
+}
+
+.boxb {
+    background-color: black;
+    color: white;
+}
+
+.aboxb {
+    background-color: black;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+}
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+table th {
+    background-color: #f2f2f2;
+}
+table tr:hover {
+    background-color: #f5f5f5;
+}
+
+
+
+@media screen and (min-width: 400px) {
+    nav ul {
+        flex-direction: row;
+    }
+    nav li {
+        flex: 1 1 auto;
+    }
+    nav a {
+        text-align: center;
+    }
+    nav a span {
+        display: none;
+    }
+
+    .row div{
+        margin-top: 1rem;
+    }
+
+    .fut {
+        margin-top: 1rem;
+    }
+
+
+}
+
+@media screen and (min-width: 774px) {
+    nav li.spacer {
+        display: block;
+        flex: 2 1 auto;
+    }
+
+    h3 {
+        margin-top: 1rem;
+    }
+
+    .whatAI, .newAI {
+        background-attachment: scroll;
+    }
+
+    img {
+        margin-top: 4rem;
+        max-width: 50vw;
+        max-height: 50vh;
+    }
+
+    .text-content {
+        margin-bottom: -5rem;
+        text-align: center;
+    }
+
+    .text-content-ethics {
+        text-align: center;
+    }
+
+    .img-content img {
+        width: 100%;
+        height: auto;
+    }
+
+    .text-content img {
+        width: 100%;
+        height: auto;
+    }
+
+    .img-content p {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .img-content-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .aboxw {
+        background-color: black;
+        color: white;
+    }
+
+    .aboxb {
+        background-color: white;
+        color: black;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+    nav li {
+        flex: 1;
+    }
+    nav a {
+        text-align: center;
+    }
+    nav a span {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 800px) {
+    nav li.spacer {
+        display: none;
+    }
+    nav a span {
+        display: inline;
+    }
+
+    nav a i {
+        margin-right: 0.5rem;
+    }
+
+    .history {
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -3rem;
+    }
+
+    .howAIworks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media print {
+    nav {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        border: solid   1px #1372ac;
+    }
+}
+
+

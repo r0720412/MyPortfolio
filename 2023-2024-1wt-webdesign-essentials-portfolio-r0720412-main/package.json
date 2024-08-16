@@ -1,0 +1,10 @@
+{
+  "name": "1wt_2023_2024_portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio 1WT 2023 - 2024",
+  "scripts": {
+    "watch": "live-server --port=5555"
+  },
+  "author": "",
+  "license": "ISC"
+}
